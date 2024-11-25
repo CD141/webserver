@@ -1,0 +1,22 @@
+
+### variables
+@url = http://localhost:3000
+
+### Get random pokemon
+GET {{url}}/api/v1
+
+### Get pokemon by id
+GET {{url}}/api/v1/pokemon/id/67325afe88cde6a7238e7d0d
+
+### Get pokemon by number
+Get {{url}}/api/v1/pokemon/4
+
+### Add a pokemon
+POST {{url}}/api/v1/pokemon/add
+Content-Type: application/json
+
+{
+    "number": 4,
+    "name": "Charmander",
+    "types": [ "Fire" ]
+}

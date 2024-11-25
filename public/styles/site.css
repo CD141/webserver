@@ -1,0 +1,32 @@
+
+body {
+    background-color: rgb(156, 151, 151);
+}
+
+span {
+    margin: 0.25rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+span.fire {
+    background-color: red;
+}
+
+span.water {
+    color: white;
+    background-color: blue;
+}
+
+span.grass {
+    background-color: green;
+}
+
+span.poison {
+    color: white;
+    background-color: purple;
+}
+
+span.flying {
+    background-color: white;
+}
